@@ -1,0 +1,52 @@
+determination1:  
+  type: str
+  default: r'/mnt/RDTeam/01_BDAI/yanglaoyuan_data/stream_filter/target/wuhugongtupianxianxiang'
+  help: '选出的新视频存放路径'
+data1_path:  
+  type: str
+  default: r'/mnt/RDTeam/01_BDAI/yanglaoyuan_data/stream_filter/old
+  help: '以所有处理过的视频名命名的空文件夹路径 (type=str)'
+data2_path: 
+  type: str
+  default: r'/mnt/RDTeam/01_BDAI/yanglaoyuan_data/play_back/wuhugongtupianxianxiang'
+  help: '待筛查的类型文件路径（未成功脱敏、缺失状态、无护工图片现象、其它）'
+determination2:  
+  type: str
+  default: r'/mnt/RDTeam/01_BDAI/yanglaoyuan_data/Image/20220824/play_back_wuhugongtupianxianxiang'
+  help: '提取出的图片整合后所存放路径'
+path:  
+  type: str
+  default: r'/mnt/RDTeam/01_BDAI/yanglaoyuan_data/stream_filter/picture_extract_p26/wuhugongtupianxianxiang'
+  help: '要被整合到一个文件夹的图片存储总路径'
+img_root:  
+  type: str
+  default: r'/mnt/RDTeam/01_BDAI/yanglaoyuan_data/Image/20220824'
+  help: '所有图片总路径————Image路径'
+pic_key_value_name: 
+  type: str
+  default: 'pic_key_value_20220824.npy'
+  help: 存储所有图片的字典文件
+data4_path: 
+  type: str
+  default: r'/mnt/RDTeam/01_BDAI/yanglaoyuan_data/Raw_label/20220824'
+  help: '读取20220824下载的新标签'
+Raw_label_rename_path: 
+  type: str
+  default: '/mnt/RDTeam/01_BDAI/yanglaoyuan_data/Raw_label_rename/20220822/'
+  help: '重命名后放在Raw_label_rename文件夹'
+data3_path: 
+  type: str
+  default: r'/mnt/RDTeam/01_BDAI/yanglaoyuan_data/stream_filter/old_hw'
+  help: '之前下载的label'
+zip_json_path:  
+  type: str
+  default: '/mnt/RDTeam/01_BDAI/yanglaoyuan_data/stream_filter/zip_json'
+  help: '存待生成整合json的文件'
+zip_json_valid_path: 
+  type: str
+  default: '/mnt/RDTeam/01_BDAI/yanglaoyuan_data/stream_filter/zip_json/valid'
+  help: '存已经是测试集字典里val_key_value内待整合json,这个可以运行后直接删除'
+val_key_value_name: 
+  type: str
+  default: 'val_key_value_20220818.npy'
+  help: '存储所有测试集json的字典文件'
