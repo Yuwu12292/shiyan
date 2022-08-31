@@ -58,6 +58,7 @@ VizTracer can log extra information without changing your source code .
 ### Add Custom Event
 
 editordata.yaml supports implementing various functions without changing the source code .
+Be sure to read carefully and use its internal instructions to implement each feature
 
 * [Instant Event](https://viztracer.readthedocs.io/en/stable/custom_event_intro.html#instant-event)
 * [Variable Event](https://viztracer.readthedocs.io/en/stable/custom_event_intro.html#variable-event)
