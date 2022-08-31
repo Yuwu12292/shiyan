@@ -1,0 +1,38 @@
+1、在桌面上新建文件夹/home/stream_filter，并cd到Desktop/home/stream_filter
+#2、（如果存在该容器，先stop：docker stop stream_filter）
+#3、（如果存在）//将docker-compose杀掉
+	docker-compose down
+4、//新建docker-compose.yml文件并保存在1的文件夹内
+       并将stream_filter也保存在该文件夹内
+------------------------------------------------------------------------------------------
+version: '3.5'
+
+services:
+  getvideo:
+    container_name: stream_filter
+    image: bolitech/ffmpeg-opencv
+    privileged: true
+    volumes:
+      - /c/Users/BoLiUser/Desktop/home/stream_filter:/home/stream_filter  （注：改成本机地址，对应1）
+    network_mode: host
+    command:
+      - sh
+      - -c 
+      - |
+        sleep 100000000
+------------------------------------------------------------------------------------------
+（说明：如上，添加一行新命令privileged: true，在外部打开完整权限）
+5、//运行新的docker-compose文件
+docker-compose up -d
+6、docker exec -it stream_filter /bin/bash
+7、cd /home/stream_filter
+8、//更换ubuntu软件源
+sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
+9、//更换ubuntu软件源
+apt update
+10、//安装mount
+apt install kwartz-client
+11、//挂载命令
+mount   -o username=linye,password=123 //192.168.203.3/BoLiTech /mnt
+12、ls /mnt
+13、养老院数据保存在 /mnt/RDTeam/01_BDAI/yanglaoyuan_data
