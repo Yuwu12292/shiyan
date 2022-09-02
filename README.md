@@ -68,7 +68,7 @@ Be sure to read carefully and use its internal instructions to implement each fe
 
 ## Documentation
 
-For full documentation, please see [https://github.com/Yuwu12292/shiyan/blob/main/README.md]([https://baidu.com](https://github.com/Yuwu12292/shiyan/blob/main/README.md))
+For full documentation, please see [https://github.com/Yuwu12292/shiyan/blob/main/README.md](https://github.com/Yuwu12292/shiyan/blob/main/README.md)
 
 ## Bugs/Requests
 
