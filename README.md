@@ -53,12 +53,10 @@ pdb.set_trace
 
 ### No need to change the code of the yaml file
 
-Editordata.yaml can log extra information without changing your source code .
-
-### Add Custom Event
-
 Editordata.yaml supports implementing various functions without changing the source code .
 Be sure to read carefully and use its internal instructions to implement each feature
+
+### Add Custom Event
 
 * [Instant Event](https://viztracer.readthedocs.io/en/stable/custom_event_intro.html#instant-event)
 * [Variable Event](https://viztracer.readthedocs.io/en/stable/custom_event_intro.html#variable-event)
