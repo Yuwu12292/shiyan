@@ -68,7 +68,7 @@ Be sure to read carefully and use its internal instructions to implement each fe
 
 ## Documentation
 
-For full documentation, please see [https://viztracer.readthedocs.io/en/stable](https://baidu.com)
+For full documentation, please see [https://baidu.com](https://baidu.com)
 
 ## Bugs/Requests
 
