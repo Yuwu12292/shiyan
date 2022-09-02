@@ -53,7 +53,7 @@ pdb.set_trace
 
 ### No need to change the code of the yaml file
 
-VizTracer can log extra information without changing your source code .
+ditordata.yaml can log extra information without changing your source code .
 
 ### Add Custom Event
 
